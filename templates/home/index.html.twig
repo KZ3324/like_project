@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+{% for user in users %}
+    <div>
+        <p><b>Pseudo : </b> {{user.username}} </p>
+        <p><b>Like : </b> {{user.likePlus}} </p>
+        <a href="/like/{{user.id}}">
+            <button>Like</button>
+        </a>
+    </div>
+    <hr>
+{% endfor %}
+{% endblock %}
