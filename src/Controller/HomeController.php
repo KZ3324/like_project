@@ -50,10 +50,6 @@ class HomeController extends AbstractController
     {
         $user = $this->getUser();
 
-        // 1
-
-        // 2
-
 
         $like = new LikeRelation();
 
