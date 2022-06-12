@@ -30,6 +30,8 @@ class InscriptionController extends AbstractController
     public function index(Request $request): Response
     {
 
+// Ajout 1
+
         $user = new User();
         $form = $this->createForm(InscriptionType::class, $user);
 
