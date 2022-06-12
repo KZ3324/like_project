@@ -52,6 +52,8 @@ class HomeController extends AbstractController
 
         // 1
 
+        // 2
+
 
         $like = new LikeRelation();
 
